@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financiamento</title>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+    <main>
+      <div class="section">
+
+        <div class="title">Prova Alexandre 3B2</div>
+
+        <div class="input">
+             <input placeholder="Por favor, digite o seu nome" type="text" id='nome' required="required">
+        </div>
+
+        <div class="input">
+          <input placeholder="Por favor, digite o valor a ser aplicado mensalmente" type="text" id='VALORP' required="required" >
+      </div>
+
+        <div class="input">
+          <input  placeholder="Por favor, digite o numero de parcelas mensais"  type="number" id='VALORN'required="required">
+      </div>
+
+        <div class="input">
+          <input  placeholder="Por favor, digite a taxa de juros"  type="text" id='VALORI'required="required">
+      </div>
+
+        <button type= "button"id='VALORVF' onclick="VALORVF()">Calcular</button>
+
+        <div class="result" id='resultado'></div>
+
+
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
